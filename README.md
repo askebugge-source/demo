@@ -20,7 +20,7 @@ npm.cmd run build
 npm.cmd run preview
 ```
 
-Includes six illustrated products, category filters, and a shopping bag with quantity controls. Prices are illustrative and use EUR. The bag lives in memory and resets on reload. Checkout is a demo; no orders or payments are processed. Product illustrations are local SVG components. Google Fonts is optional; system fonts provide a fallback offline.
+Includes six photographed products, category filters, and a shopping bag with quantity controls. Prices are illustrative and use EUR. The bag lives in memory and resets on reload. Checkout is a demo; no orders or payments are processed. Product photographs are stored in public/images. See PHOTO-CREDITS.md for sources. Google Fonts is optional; system fonts provide a fallback offline.
 
 Edit products in `src/App.tsx` and styles in `src/App.css`.
 
@@ -37,3 +37,4 @@ This project is configured for https://askebugge-source.github.io/demo/.
 The workflow installs packages from the lockfile, builds the application, and deploys only dist/. No deployment secret is needed; it uses GitHub's built-in token. If you change the repository name or use a custom domain, update the production base in vite.config.ts.
 
 Official guidance: https://vite.dev/guide/static-deploy.html#github-pages and https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site.
+
